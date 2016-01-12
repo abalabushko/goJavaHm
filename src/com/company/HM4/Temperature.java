@@ -5,13 +5,13 @@ package com.company.HM4;
  */
 public class Temperature {
 
-    public double fromCelsiusToFahrenheit(double a){
+    public static double fromCelsiusToFahrenheit(double a){
         double f = 9*(a+32)/5;
 
         return f;
     }
 
-    public double fromFahrenheitToCelsius(double a) {
+    public static double fromFahrenheitToCelsius(double a) {
         double c = 5 * (a - 32) / 9;
 
         return c;
