@@ -3,11 +3,19 @@ package com.company;
 import com.company.HM4.Distance;
 import com.company.HM4.Square;
 import com.company.HM4.Temperature;
+import com.company.HM5.Array;
 
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+
+        int[] array = new int[]{1, 3, 5, 2, 7, 5, 9, 0, 13, 17};
+
+        int maxElement = Array.getMaxElement(array);
+        System.out.println(" максимальный элемент " + maxElement);
+        int minElement = Array.getMinElement(array);
+        System.out.println(" минимальный элемент " + minElement);
 
         System.out.printf("triangle S = %.2f; " , Square.triangleSquare(14, 12, 12));
         System.out.printf("circle S = %.2f; " , Square.circleSquare(3));
